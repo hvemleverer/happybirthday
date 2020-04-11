@@ -95,95 +95,95 @@ p {
 }
 
 #balloon-1 {
-  left: 20px;
+  left: 10%;
   bottom: 0px !important;
 }
 #balloon-2 {
-  left: 200px;
+  left: 20%;
   bottom: 100px !important;
 }
 #balloon-3 {
-  left: 400px;
+  left: 40%;
   bottom: 300px !important;
 }
 #balloon-4 {
-  left: 500px;
+  left: 50%;
   bottom: -200px !important;
 }
 #balloon-5 {
-  left: 120px;
+  left: 12%;
   bottom: -400px !important;
 }
 #balloon-6 {
-  left: 300px;
+  left: 30%;
   bottom: -100px !important;
 }
 #balloon-7 {
-  left: 750px;
+  left: 75%;
   bottom: 0px !important;
 }
 #balloon-8 {
-  left: 200px;
+  left: 20%;
   bottom: 300px !important;
 }
 #balloon-9 {
-  left: 500px;
+  left: 50%;
   bottom: -500px !important;
 }
 #balloon-10 {
-  left: 20px;
+  left: 2%;
   bottom: 0px !important;
 }
 #balloon-11 {
-  left: 800px;
+  left: 70%;
   bottom: -200px !important;
 }
 #balloon-12 {
-  left: 1000px;
+  left: 90%;
   bottom: -500px !important;
 }
 #balloon-13 {
-  left: 400px;
+  left: 40%;
   bottom: -400px !important;
 }
 #balloon-14 {
-  left: 850px;
+  left: 75%;
   bottom: 300px !important;
 }
 #balloon-15 {
-  left: 500px;
+  left: 50%;
   bottom: -250px !important;
 }
 #balloon-16 {
-  left: 1000px;
+  left: 85%;
   bottom: 30px !important;
 }
 #balloon-17 {
-  left: 150px;
+  left: 15%;
   bottom: -400px !important;
 }
 #balloon-18 {
-  left: 20px;
+  left: 68%;
   bottom: -400px !important;
 }
 #balloon-19 {
-  left: 750px;
+  left: 75%;
   bottom: -500px !important;
 }
 #balloon-20 {
-  left: 100px;
+  left: 0%;
   bottom: -800px !important;
 }
 #balloon-21 {
-  left: 420px;
+  left: 42%;
   bottom: 500px !important;
 }
 #balloon-22 {
-  left: 560px;
+  left: 56%;
   bottom: 1000px !important;
 }
 #balloon-23 {
-  left: 920px;
+  left: 82%;
   bottom: 300px !important;
 }
 
@@ -193,7 +193,7 @@ p {
   width: calc(100% - 80px*2);
   
   position: absolute;
-  top: calc( 100% - 100px);
+  top: calc( 100% - 360px);
   left: 0;
   height: calc(100% - 80px*2);
   width: calc(100% - 100px*2);
@@ -206,7 +206,7 @@ p {
 
 .clouds-image {
   position: absolute;
-  top: -515px;
+  top: -244px;
   left: 0px;
   width: 100%;
   height: 516px;
