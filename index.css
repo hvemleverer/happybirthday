@@ -1,0 +1,224 @@
+body, html{
+  background-color: #cbe5e6;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.congratulate {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: calc(100% - 80px*2);
+  width: calc(100% - 80px*2);
+  color: #228898;
+  font-weight: 800;
+  font-size: 7rem;
+  letter-spacing: -6px;
+  padding: 80px;
+  text-align: center;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+.airplane {
+  position: absolute;
+  width: 590px;
+  height: 266px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(airplane.png);
+  animation: airplane 20s linear infinite;
+  z-index: 2;
+}
+
+@keyframes airplane {
+  0% {
+    top: 200px;
+    left: -590px;
+  }
+  50% {
+    top: 300px;
+    left: calc(50% - 200px);
+  }
+  100% {
+    top: 180px;
+    left: calc(100% + 100px);
+  }
+}
+
+.balloon {
+  position: absolute;
+  width: 152;
+  height: 194px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(balloon.png);
+  z-index: 1;
+  animation: balloon 7s linear;
+  opacity: 0;
+  visibility: hidden;
+}
+
+@keyframes balloon {
+  0% {
+    visibility: unset;
+    opacity:0.3;
+    transform: translateX(0px);
+  }
+  20% {
+    transform: translateX(5px);
+  }
+  40% {
+    transform: translateX(-10px);
+  }
+  60% {
+    transform: translateX(5px);
+  }
+  80% {
+    transform: translateX(0px);
+  }
+  100% {
+    visibility: unset;
+    opacity:0.3;
+    bottom: calc( 100% + 194px);
+    transform: translateX(0px);
+  }
+}
+
+#balloon-1 {
+  left: 20px;
+  bottom: 0px !important;
+}
+#balloon-2 {
+  left: 200px;
+  bottom: 100px !important;
+}
+#balloon-3 {
+  left: 400px;
+  bottom: 300px !important;
+}
+#balloon-4 {
+  left: 500px;
+  bottom: -200px !important;
+}
+#balloon-5 {
+  left: 120px;
+  bottom: -400px !important;
+}
+#balloon-6 {
+  left: 300px;
+  bottom: -100px !important;
+}
+#balloon-7 {
+  left: 750px;
+  bottom: 0px !important;
+}
+#balloon-8 {
+  left: 200px;
+  bottom: 300px !important;
+}
+#balloon-9 {
+  left: 500px;
+  bottom: -500px !important;
+}
+#balloon-10 {
+  left: 20px;
+  bottom: 0px !important;
+}
+#balloon-11 {
+  left: 800px;
+  bottom: -200px !important;
+}
+#balloon-12 {
+  left: 1000px;
+  bottom: -500px !important;
+}
+#balloon-13 {
+  left: 400px;
+  bottom: -400px !important;
+}
+#balloon-14 {
+  left: 850px;
+  bottom: 300px !important;
+}
+#balloon-15 {
+  left: 500px;
+  bottom: -250px !important;
+}
+#balloon-16 {
+  left: 1000px;
+  bottom: 30px !important;
+}
+#balloon-17 {
+  left: 150px;
+  bottom: -400px !important;
+}
+#balloon-18 {
+  left: 20px;
+  bottom: -400px !important;
+}
+#balloon-19 {
+  left: 750px;
+  bottom: -500px !important;
+}
+#balloon-20 {
+  left: 100px;
+  bottom: -800px !important;
+}
+#balloon-21 {
+  left: 420px;
+  bottom: 500px !important;
+}
+#balloon-22 {
+  left: 560px;
+  bottom: 1000px !important;
+}
+#balloon-23 {
+  left: 920px;
+  bottom: 300px !important;
+}
+
+.clouds {
+  background-color: white;
+  height: calc(100% - 80px*2);
+  width: calc(100% - 80px*2);
+  
+  position: absolute;
+  top: calc( 100% - 100px);
+  left: 0;
+  height: calc(100% - 80px*2);
+  width: calc(100% - 100px*2);
+  padding: 80px 100px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.clouds-image {
+  position: absolute;
+  top: -515px;
+  left: 0px;
+  width: 100%;
+  height: 516px;
+  background-repeat: repeat-x;
+  background-position: center;
+  background-image: url(clouds.png);
+}
+
+.message {
+  font-size: 3.5rem;
+  text-align: justify;
+  color: #4a4a4a;
+  line-height: 5.4rem;
+  font-family: 'Roboto', sans-serif;
+}
