@@ -65,12 +65,10 @@ p {
   z-index: 1;
   animation: balloon 7s linear;
   opacity: 0;
-  visibility: hidden;
 }
 
 @keyframes balloon {
   0% {
-    visibility: unset;
     opacity:0.3;
     transform: translateX(0px);
   }
@@ -87,7 +85,6 @@ p {
     transform: translateX(0px);
   }
   100% {
-    visibility: unset;
     opacity:0.3;
     bottom: calc( 100% + 194px);
     transform: translateX(0px);
